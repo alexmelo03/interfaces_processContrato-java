@@ -43,6 +43,15 @@ public class Contrato {
 		this.valorTotalContrato = valorTotalContrato;
 	}
 	
+	
+	public List<Fatura> getFaturas() {
+		return faturas;
+	}
+
+	public void setFaturas(List<Fatura> faturas) {
+		this.faturas = faturas;
+	}
+
 	public void addFatura(Fatura fatura) {
 		faturas.add(fatura);
 	}
